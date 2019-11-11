@@ -1,8 +1,8 @@
 {
-  "name": "todo-list",
+  "name": "to-do-list",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://fatemeh-pakpour.github.io/todo-list",
+  "homepage": "http://fatemeh-pakpour.github.io/to-do-list",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.25",
     "@fortawesome/free-solid-svg-icons": "^5.11.2",

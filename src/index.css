@@ -196,9 +196,6 @@ Media Queries
 *************************/
 
 @media (min-width: 0) and (max-width: 549px) {
-  .tasks-container {
-    height: 400px;
-  }
   input[type="text"] {
     width: 50%;
   }
@@ -245,10 +242,7 @@ Media Queries
   .task-title {
     width: 100px;
   }
-  .tasks-container {
-    height: 600px;
-  }
-
+  
 }
 
 @media only screen and (min-width: 1140px) {
