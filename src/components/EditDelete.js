@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { Consumer } from "./Context";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTrashAlt, faEdit } from "@fortawesome/free-solid-svg-icons";
@@ -31,8 +31,8 @@ const EditDelete = ({ id, toggleForm }) => {
   );
 };
 
-EditDelete.propTypes = {
-  id: PropTypes.instanceOf(Date),
-  toggleForm: PropTypes.func
-};
+// EditDelete.propTypes = {
+//   id: PropTypes.string,
+//   toggleForm: PropTypes.func
+// };
 export default EditDelete;

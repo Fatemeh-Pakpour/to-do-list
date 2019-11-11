@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import { Consumer } from "./Context";
 import Task from "./Task";
 
@@ -24,9 +24,9 @@ const TaskList = props => {
   );
 };
 
-TaskList.propTypes = {
-  removeTask: PropTypes.func.isRequired,
-  editTask: PropTypes.func.isRequired
-};
+// TaskList.propTypes = {
+//   removeTask: PropTypes.func.isRequired,
+//   editTask: PropTypes.func.isRequired
+// };
 
 export default TaskList;
